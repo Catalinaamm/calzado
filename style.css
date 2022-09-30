@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.nav {
+    width: 100%;
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 30%;
+}
+.lista {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.lista__li {
+    list-style: none;
+}
+.lista__a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.lista__a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 1px;
+    background-color: white;
+    transition: width .3s;
+}
+
+.lista__a:hover::after {
+    width: 100%;
+
+}
+.inicio{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 78px;
+    left: 35px;
+}
+.inicio1{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 155px;
+    left: 93px;
+}
+.inicio2{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 192px;
+    left: 111px;
+}
+.inicio3{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 222px;
+    left: 90px;
+}
+.inicio4{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 252px;
+    left: 111px;
+}
+.inicio5{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 281px;
+    left: 93px;
+}
+.inicio6{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 309px;
+    left: 106px;
+}
+.inicio7{
+    color: aliceblue;
+    font-family: initial;
+    position: absolute;
+    top: 309px;
+    left: 106px;
+}
+.imagx {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 660px;
+  }
+  
+  .imagen {
+    width: 58%;
+    height: 75%;
+    background-image: url(img/coleccionjpg.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: solid;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  .ledre {
+    text-align: center;
+    margin: 195px;
+    color: #ffffff;
+    font-size: 3em;
+  }
+  #boton1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    padding: 3mm;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #boton1:hover {
+    background-color: rgb(134, 119, 119);
+  }
+.fondo{
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 660px;
+ }
+.velocidad{
+    font-family: initial;
+    position: relative;
+    top: 375px;
+    left: 933px;
+    font-style: oblique;
+    font-size: 35px;
+    color: wheat;
+}
+.amplitud{
+    font-family: initial;
+    position: relative;
+    top: 489px;
+    left: 933px;
+    font-style: oblique;
+    font-size: 35px;
+    color: wheat;
+}
+.titulo{ 
+    font-family: 'Poppins', sans-serif;}
+.titulo{ 
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 5mm;
+    font-style: oblique;
+    margin-left: 66px;
+    margin-top: -63px;
+} 
+.frontimg{ 
+    width: 100%; 
+    border-radius: 20px;
+}
+.blanco{ 
+    color: whitesmoke;
+    padding: 21px;
+}
+.mitad1 {
+    left: 175px;
+    width: 238px;
+    height: 398px;
+    margin: auto;
+    background-color: rgb(55 55 55);
+    top: 682px;
+    border-radius: 20px;
+    position: absolute;
+}
+.mitad2 {
+    width: 238px;
+    height: 398px;
+    margin: auto;
+    background-color: rgb(55 55 55);
+    top: 769px;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 399px;
+}
+.mitad3 {
+    width: 238px;
+    height: 398px;
+    margin: auto;
+    background-color: rgb(55 55 55);
+    border-radius: 20px;
+    position: absolute;
+    top: 854px;
+    left: 635px;
+}
+.titulo{ font-size:35px; text-align: center; color: white; padding: 5mm; font-style: oblique;} 
+.foo{ background-color: rgb(0, 0, 0); height: 48px; text-align: center; color: antiquewhite;}
+#boton2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding: 3mm;
+    margin: 39%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -71px;
+}
+#boton2:hover{ 
+    background-color: rgb(160, 145, 156);
+}
+.imge{ display: flex; justify-content: center; align-items: center; } 
+.div2{ flex-direction: column; justify-content: center; align-items: center; } 
+.imgya{ height: 312px; padding: 4em; } .morado{ color:rgb(46, 145, 220); font-size: 2em; margin: 2em; padding: -1px; top: -1px; left: 175px; } 
+.strong{ color: black } 
+.parrafo { margin: 48px; padding: 14px; top: -77px; left: 68px; }
+.color5{
+    background-color: white;
+    height: 339px;
+}
+.contactos{
+    font-family: initial;
+    position: relative;
+    top: 39px;
+    left: 25px;
+    font-style: oblique;
+    font-size: 35px;
+    text-align: center;
+}
+.consultas{
+    font-family: initial;
+    position: relative;
+    top: 107px;
+    left: 126px;
+    font-style: oblique;
+}
+.tel{
+    font-family: cursive;
+    position: relative;
+    top: 107px;
+    left: 126px;
+    font-style: oblique;
+    text-decoration:none;
+}
+.atencion{
+    font-family: initial;
+    position: relative;
+    top: 7px;
+    left: 398px;
+    font-style: oblique;
+}
+.atencion2{
+    font-family: cursive;
+    position: relative;
+    top: 7px;
+    left: 398px;
+    font-style: oblique;
+}
+.ventas{
+    font-family: initial;
+    position: relative;
+    top: 7px;
+    left: 639px;
+    font-style: oblique;
+}
+.ventas2{
+    font-family: cursive;
+    position: relative;
+    top: 7px;
+    left: 639px;
+    font-style: oblique;
+}
+.a{
+    text-decoration: none;
+}
+.ppp{
+    color: #ffffff;
+    text-align: -webkit-center;
+    font-size: larger;
+}
+.color6{
+    position: relative;
+    left: 155px;
+}
+.fro{
+    position: relative;
+    width: 120px;
+    left: 377px;
+}
+.froi{
+    position: relative;
+    width: 45px;
+    left: -100px;
+    height: 30px;
+}
+.froii{
+    position: relative;
+    width: 45px;
+    left: -145px;
+    height: 30px;
+    top: 31px;
+}
+.froiii{
+    position: relative;
+    width: 45px;
+    left: -190px;
+    height: 30px;
+    top: 62px;
+}
+    
